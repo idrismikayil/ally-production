@@ -13,5 +13,7 @@ namespace ally.DAL
         public DbSet<Cart> ShoppingCart { get; set; }
         public DbSet<AboutUs> AboutUs { get; set; }
         public DbSet<UpperCategory> UpperCategories { get; set; }
+        public DbSet<Slider> Sliders { get; set; }
+
     }
 }
